@@ -1,4 +1,4 @@
-FROM node:18-alpine3.16 AS build
+FROM public.ecr.aws/docker/library/node:18-alpine3.16 AS build
 
 WORKDIR /dockerbuild
 COPY . .
